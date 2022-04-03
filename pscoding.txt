@@ -1,0 +1,29 @@
+Atividades solicitadas para UC 08
+1- cadastro de palestras, palestrantes, idade
+2- numero de alunos
+
+1 -  psconding
+    atribuir - datahoje
+    atribuir - dataevento
+    atribuir - datanascimento
+    atribuir - numeroparticipantes []
+
+        se - dataevento < datahoje
+                "marcar evento"
+        senão - "data invalida"
+        se datanascimento > 6570
+            "idade valida"
+        senão - "idade insulficiente"
+        se - numeroparticipantes < 100
+            "cadastro realizado"
+        senão - "numero de participantes maximo atingidos!"
+
+
+2- numerosalunos
+2-psconding
+
+    atribuir - listaalunos []
+    atribuir - zero
+    atribuir - par
+    atribuir - impar
+    impmir listaalunos
